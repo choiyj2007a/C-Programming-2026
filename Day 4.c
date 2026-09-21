@@ -39,12 +39,59 @@ void exerc3(void)
 
     printf("원의 넓이 = %.2f\n", area);
 }
+void exerc4(void)
+{
+    int total;
+    scanf("%d", &total);
+    
+    int hours = total / 3600;
+    total %= 3600;
+    int minutes = total / 60;
+    total %= 60;
+    int seconds = total / 60;
+    total %= 60;
+
+    printf("%d hours %d mins %d sec\n", hours, minutes, seconds);
+
+}
+
+void exerc5(void)
+{
+    int score1 = 75;
+    int attendance = 85;
+    int passed = score1 >= 60 && attendance >= 80;
+}
+
+void exerc6(void)
+{
+#define READ  0x01
+#define WRITE 0x02
+#define EXEC  0x04
+
+    unsigned int permission = READ | WRITE;
+    permission |= EXEC;
+    printf("permission = 0x%02X\n", permission);
+    return 0;
+}
+
+void exerc7(void)
+{
+    int year;
+    scanf("%d", &year);
+    printf("%d", (year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
+    return 0;
+}
+
 
 int main(void)
 {
     exerc1();
     exerc2();
     exerc3();
+    exerc4();
+    exerc5();
+    exerc6();
+    exerc7();
 
     return 0;
 }
