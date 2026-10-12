@@ -1,3 +1,6 @@
+//성적 가중평균
+//BMI 계산
+
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable: 4996)
