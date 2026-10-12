@@ -1,3 +1,5 @@
+//윤년 판별 프로그램 (if-else)
+
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable: 4996)
