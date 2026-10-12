@@ -1,6 +1,25 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 
+//int main() {
+//	int grade;
+//	printf("enter your grade: ");
+//	scanf("%d", &grade);
+//
+//	if (grade == 1) {
+//		printf("grade 1\n");
+//	}
+//	else if (grade == 2) {
+//		printf("grade 2\n");
+//	}
+//	else if (grade == 3) {
+//		printf("grade 3\n");
+//	}
+//	else {
+//		printf("wrong text\n");
+//	}
+//}
+
 int main()
 {
     int grade;
