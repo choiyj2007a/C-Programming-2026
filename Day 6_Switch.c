@@ -1,3 +1,5 @@
+//if-else문 -> switch case 변환 : 학년 출력하는 코드
+
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 
