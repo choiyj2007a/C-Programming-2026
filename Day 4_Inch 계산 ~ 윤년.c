@@ -39,6 +39,8 @@ void exerc3(void)
 
     printf("원의 넓이 = %.2f\n", area);
 }
+
+//시간 나누기
 void exerc4(void)
 {
     int total;
@@ -55,6 +57,7 @@ void exerc4(void)
 
 }
 
+//합격 여부부
 void exerc5(void)
 {
     int score1 = 75;
@@ -62,6 +65,7 @@ void exerc5(void)
     int passed = score1 >= 60 && attendance >= 80;
 }
 
+//권한 추가
 void exerc6(void)
 {
 #define READ  0x01
