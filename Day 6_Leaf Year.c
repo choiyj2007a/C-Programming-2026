@@ -1,3 +1,5 @@
+//1 ~ 12월 중 하나를 입력 받아, 해당 월의 일 수 출력(Switch-case)
+
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 
