@@ -1,6 +1,6 @@
 //정수의 나눗셈
 
-#include <stido.h>
+#include <stdio.h>
 
 int main(void) {
 	int korean;
