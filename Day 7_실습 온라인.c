@@ -19,7 +19,7 @@ void exerc1(void) {
 
     if (r < 0) x = 1.0 / x;
 
-    printf("%d의 %d승은 %lf 입니다.", n, r, x);
+    printf("%d to the power of %d is %lf.", n, r, x);
 }
 
 void exerc2(void) {
